@@ -1,10 +1,10 @@
 .all
 {
-    text-align: center;;
-
+    text-align: center;
 }
 
-.photo {
+.photo
+{
     height: 100%;
     width: 100%;
 }
@@ -14,7 +14,8 @@
     border: aqua solid 2px;
 }
 
-.cat {
+.cat
+{
     border: white solid 2px;
     display: inline-block;
     margin: 10px;
@@ -35,13 +36,13 @@
     text-align: left;
 }
 
-#list:checked ~ .all .cat
+input[value='list']:checked ~ .all .cat
 {
     display: block;
     width: 60%;
 }
 
-#tile:checked ~ .all .cat .max-info
+input[value='tile']:checked ~ .all .cat .max-info
 {
     display: none;
 }
