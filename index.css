@@ -1,0 +1,47 @@
+.all
+{
+    text-align: center;;
+
+}
+
+.photo {
+    height: 100%;
+    width: 100%;
+}
+
+.cat:hover
+{
+    border: aqua solid 2px;
+}
+
+.cat {
+    border: white solid 2px;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    min-height: 200px;
+    width: 270px;
+    background-color: azure;
+    text-align: center;
+}
+
+.min-info
+{
+    text-align: left;
+}
+
+.max-info
+{
+    text-align: left;
+}
+
+#list:checked ~ .all .cat
+{
+    display: block;
+    width: 60%;
+}
+
+#tile:checked ~ .all .cat .max-info
+{
+    display: none;
+}
