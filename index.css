@@ -47,12 +47,14 @@
     border: red solid 1px;
 }
 
-.min-info:hover, .max-info:hover
+.min-info:hover,
+.max-info:hover
 {
     border: black solid 2px;
 }
 
-.min-info, .max-info
+.min-info,
+.max-info
 {
     border: azure solid 2px;
     text-align: left;
