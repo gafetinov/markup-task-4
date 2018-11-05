@@ -3,10 +3,16 @@
     text-align: center;
 }
 
+.photo:hover
+{
+    border: black solid 3px;
+}
+
 .photo
 {
-    height: 100%;
-    width: 100%;
+    border: azure solid 3px;
+    height: 90%;
+    width: 90%;
 }
 
 .cat:hover
@@ -26,14 +32,31 @@
     text-align: center;
 }
 
-.min-info
+.cat-name
 {
-    text-align: left;
+    border: azure solid 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 5px;
+    margin: 5px;
 }
 
-.max-info
+.cat-name:hover
 {
+    border: red solid 1px;
+}
+
+.min-info:hover, .max-info:hover
+{
+    border: black solid 2px;
+}
+
+.min-info, .max-info
+{
+    border: azure solid 2px;
     text-align: left;
+    padding: 5px;
 }
 
 input[value='list']:checked ~ .all .cat
